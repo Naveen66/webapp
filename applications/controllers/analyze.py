@@ -102,3 +102,8 @@ def view_email():
     response.title = "Email of campaign %s (%s)" % (campaign.name, email_format)
 
     return campaign.emailBodyHtml or campaign.emailBodyText
+
+
+def _test_git():
+    "First change in the code to test the git deployment"
+    pass
